@@ -5,7 +5,7 @@
  
 Executar os Desafios:
 <li><a href="https://nanafonseca.github.io/HTML-CSS/Desafios/desafioandroid/desafio2.html">Desafio Android</a></li>
-
+<p> </p>
 Executar os Exercícios:
 <li><a href="https://nanafonseca.github.io/HTML-CSS/Exerc%C3%ADcios/ex001/">Exercício 001</a>
 <li><a href="https://nanafonseca.github.io/HTML-CSS/Exerc%C3%ADcios/ex002/">Exercício 002</a>
