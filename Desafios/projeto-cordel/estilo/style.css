@@ -10,19 +10,14 @@
     --fonte3: 'Sriracha', cursive;
 }
 
-. {
-    margin: 0px;
-    padding: 0px;
-}
-
 html, body {
     min-height: 100vh;
     background-color: aliceblue;
-    background-image: url(imagens/background001.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    margin: -8px;
 }
 
 header {
@@ -43,8 +38,6 @@ header > h1 {
     font-size: 10vw;
 }
 
-/*Colocar no font-size a unidade vw significa viewport width o que faz com que a letra diminua conforme a tela diminua*/
-
 header > h2 {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -54,23 +47,54 @@ header > h2 {
 }
 
 section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
     font-family: var(--fonte3);
     font-size: 4vw;
-    margin: 15px -10px;
-    padding: 70px 50px;
+}
+
+section > p {
+    padding-bottom: 2em;
+    padding-left: 2em;
 }
 
 section.normal {
     background-color: white;
     box-shadow: 8px -1px 13px 5px black;
-    margin: -8px; 
+    margin: -8px;
+}
+
+section.imagem {
+    background-color: black;
+    color: white;
+    box-shadow: inset 6px 6px 10px 0px black;
 }
 
 section.imagem > p {
     display: inline-block;
-    padding: 10px 40px 10px 10px;
-    background-color: rgba(0, 0, 0, 0.568);
-    color: white;
+    margin-left: 2em;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.404);
+    text-shadow: 2px 1px 0px black;
+}
+
+section#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img02 {
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 a {
