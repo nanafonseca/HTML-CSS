@@ -5,6 +5,7 @@
  
 Executar os Desafios:
 <li><a href="https://nanafonseca.github.io/HTML-CSS/Desafios/desafioandroid/desafio2.html">Desafio Android</a></li>
+<li><a href="https://nanafonseca.github.io/projeto-cordel/">Desafio Cordel</a></li>
 <p> </p>
 Executar os Exercícios:
 <p></p>
