@@ -1,8 +1,14 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
 
 . {
     margin: 0px;
@@ -17,38 +23,41 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Sriracha', cursive;
-    font-size: 47px;
 }
 
 header {
-    height: 200px;
-    margin: -22px -9px;
-    padding: 10px;
-    padding-top: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: black;
     text-align: center;
+    margin: -8px;
 }
 
 header > h1 {
+    padding-top: 40px;
     font-variant: small-caps;
-    font-size: 90px;
-    font-weight: lighter;
-    font-family: 'Passion One', cursive;
-    font-variant: small-caps;
+    font-family: var(--fonte2);
     color: white;
-    padding: 1px 2px;
-    padding-top: 50px;
-    font-variant: small-caps;
-    margin: 18px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    font-size: 10vw;
 }
+
+/*Colocar no font-size a unidade vw significa viewport width o que faz com que a letra diminua conforme a tela diminua*/
 
 header > h2 {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: lighter;
     font-size: 16px;
-    padding-bottom: 18px;
+    padding-bottom: 25px;
+}
+
+section {
+    font-family: var(--fonte3);
+    font-size: 4vw;
+    margin: 15px -10px;
+    padding: 70px 50px;
 }
 
 section.normal {
@@ -57,21 +66,10 @@ section.normal {
     margin: -8px; 
 }
 
-
-section.normal > p {
-    margin: 22px -10px;
-    padding: 90px 50px
-}
-
-section.imagem {
-    height: 800px;
-    width: 600px;
-}
-
 section.imagem > p {
-    margin: 22px -10px;
-    padding: 90px 50px 10px 10px;
-    background-color: rgba(0, 0, 0, 0.568) ;
+    display: inline-block;
+    padding: 10px 40px 10px 10px;
+    background-color: rgba(0, 0, 0, 0.568);
     color: white;
 }
 
@@ -89,6 +87,7 @@ footer {
     text-align: center;
     color: white;
     padding: 10px;
+    margin: -8px;
 }
 
 footer > p {
